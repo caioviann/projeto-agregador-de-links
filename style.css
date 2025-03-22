@@ -4,16 +4,16 @@
   box-sizing: border-box;
 }
 :root {
-  --text-color: white;
-  --bg-url: url(assests/bg-mobile-dark\ 350.jpg);
-  --stroke-color: rgba(255, 255, 255, 0.5);
+  --text-color: #85e4ff;
+  --bg-url: #0e2a56;
+  --stroke-color: #85e4ff;
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assests/mooon-star.svg);
 }
 .light {--text-color: black;
-  --bg-url: url(assests/bg-mobile-light.jpg);
+  --bg-url: linear-gradient(#779bd0, #f5e6d9);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.2);
@@ -127,8 +127,8 @@ ul li a{
 }
 /*pseudo-selector*/
   ul li a:hover {
-  background: var(--surface-color-hover);
-  border: 1.5px solid var(--text-color);
+  background: var(--text-color);
+  color: black;
 }
 /*social-links*/
 #social-links{
