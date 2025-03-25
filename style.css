@@ -5,18 +5,18 @@
 }
 :root {
   --text-color: #85e4ff;
-  --bg-url: #0e2a56;
+  --bg-url: #041531;
   --stroke-color: #85e4ff;
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assests/mooon-star.svg);
 }
-.light {--text-color: black;
-  --bg-url: linear-gradient(#779bd0, #f5e6d9);
-  --stroke-color: rgba(0, 0, 0, 0.5);
+.light {--text-color: #8A2BE2;
+  --bg-url: linear-gradient(#D8BFD8, #FFFFFF);
+  --stroke-color: #8A2BE2;
   --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.2);
+  --surface-color-hover: #8A2BE2;
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assests/ssun.svg);
 }
